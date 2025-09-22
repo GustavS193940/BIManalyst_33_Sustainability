@@ -1,12 +1,9 @@
 import ifcopenshell
 
-from rules import windowRule
-from rules import doorRule
+from rules import NFARule
 
 model = ifcopenshell.open("path/to/ifcfile.ifc")
 
-windowResult = windowRule.checkRule(model)
-doorResult = doorRule.checkRule(model)
+NFAResult = NFARule.checkRule(model)
 
-print("Window result:", windowResult)
-print("Door result:", doorResult)
+print("NFA result: The net floor area in the model is", NFAResult,"m²")
