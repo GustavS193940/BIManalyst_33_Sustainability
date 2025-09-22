@@ -2,7 +2,7 @@ import ifcopenshell
 
 from rules import NFARule
 
-model = ifcopenshell.open(r"C:\Users\gusta\Desktop\25-16-D-ARCH.ifc")
+model = ifcopenshell.open('25-16-D-ARCH.ifc')
 
 NFAResult = NFARule.checkRule(model)
 
