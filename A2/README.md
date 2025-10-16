@@ -6,6 +6,8 @@
 
 ## A2c: Use Case
 
+![BPMN Diagram](https://github.com/GustavS193940/BIManalyst_33_Sustainability/main/A2/IMG/UseCase.svg)
+
 ## A2d: Scope the Use Case
 
 ## A2e: Tool Idea
