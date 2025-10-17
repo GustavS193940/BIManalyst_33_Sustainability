@@ -1,6 +1,6 @@
 # A2: Use Case
 
-## A2a: About The Group: 
+## A2a: About The Group 
 Our group 33 has chosen to focus on environmental performance validation through **Life Cycle Assessment (LCA)** and **Global Warming Potential (GWP)** evaluation of Buliding 2516.
 
 **Group Role**: Analyst We are responsible for identifying and verifying sustainability relaited claims in the BIM model, focusing on material quantities anc their environmental impact. 
