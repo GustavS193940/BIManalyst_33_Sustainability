@@ -33,11 +33,10 @@ Due to time and experience limitations, we will be limiting ourselves to only th
 * When this claim needs to be checked
 The claim should be checked towards the end of each design phase, once BIM-models are completed.
 * Information required for this claim
-  * Material specifications anc types used in the model
+  * Material specifications and types used in the model
   * Volume, density, and surface area of each element
   * CO<sub>2</sub>-eq emission factors from LCAbyg
   * Building area for normalization
-  * Structural Ifc model files
 * Phase
 During the **design phase**, when material selection and stuctural strategies are defined. The verification process ensures that design decisions align with the project's sustainability goals and Danish regulations.
 * BIM Purpose
