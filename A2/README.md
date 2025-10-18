@@ -74,10 +74,14 @@ The flow of the tool idea is summarized in the diagram below.
 
 ## A2f: Information Requirements
 For this tool to work the following information needs to be extracted from the elements in the STR-model
-- Type
+- Type (beam, column, slab etc.)
+  - This is located in the **"Object Metadata"** of of each element in the IFC-model.
 - Dimensions
+  - This is found under **"Property Sets"**, specifically **"Inherited Type Properties"** with differing names depending on the element type. 
 - Material
+  - This is found under **"Property Sets"**, specifically **"Inherited Type Properties"** as **"Materials and Finishes"**.
 - Quantity
+  - This is found under **"Property Sets"**, specifically **"Occurence Properties"** as **"Dimensions"**.
 For the information to be converted into an LCAbyg-compatible json-file, some of the material data will have to be edited to be easily recognized by the tool.
 
 For all elements, we will need to add a property that describes, whether the element is new or reused.
