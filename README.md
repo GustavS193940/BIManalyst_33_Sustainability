@@ -6,7 +6,7 @@ The tool solves the issue of incomplete, incosistent, or missing sustainability-
  * difficulties performing LCA
  * gaps in DGNB documentation
 
-# Where the Proble was Found
+# Where the Problem was Found
 
 The issue became clear when analysing the Structural IFC model of Building 2516 (Building 115). Several structural elements lacked necessary information such as material, volume, and thickness, which directly affects the calculated value of the CO2-eq.
 
