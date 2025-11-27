@@ -1,14 +1,19 @@
 # About the Tool
 # Claim the Tool is Solving
 
-The tool solves the issue of incomplete, incosistent, or missing sustainability- related data in IFC models. In real projects, designers often omit key Psets or material informations which leads to:
- * unrealiable CO2 calculations
- * difficulties performing LCA
- * gaps in DGNB documentation
+The tool solves the issue of incomplete, incosistent, or missing sustainability, related data in IFC models. This tool solves these problematic areas by:
+ * Fixing the schema from IFC4X3 to IFC4X3_ADD2
+ * Adding missing Psets to beams, columns, walls, and slabs
+ * Enriching elements with standardized parameters
+ * Ensuring completeness through IDS validation
+ * Exporting structured data (JSON + Excel) for advanced building analysis
 
 # Where the Problem was Found
 
-The issue became clear when analysing the Structural IFC model of Building 2516 (Building 115). Several structural elements lacked necessary information such as material, volume, and thickness, which directly affects the calculated value of the CO2-eq.
+The problems were discoverd during:
+ * Model inspection in Blender (missing Psets, incorrect schema)
+ * Use Case Analysis A2 (workflow inefficiencies, missing structured parameters)
+The existing workflow required many manual corrections, which are now automated.
 
 # Description of the Tool
 
@@ -40,27 +45,26 @@ Outputs are generated as:
 
 # Instructions to Run the Tool
 
-# Advanced Building Desing
+# Advanced Building Design
 
 **Which stage is the tool useful for?**
-The tool is most useful in Stage C, for analyzing because this is where:
-* LCA begins
-* sustainability targets are evaluated
-* data comppleteness becomes critical
-* material alternatives are compared
+The tool is most useful in Stage B – Model Development & Coordination because this is where:
+* property sets must be correctly defined
+* model completeness is checked
+* structured data is required for sustainability analysis, costing, structural design, etc.
+It could also support Stage C (Design Analysis) and Stage D (Documentation & LCA), but the primary value is early coordination (Stage B).
 
 **Which subjects might use it?**
  * Architectural Engineering
- * Structural Engineering
  * Sustainability/LCA analysis
  * Material quantification and cost analysis
 
 **What information is required in the model**
 For the tool to work correctly, the IFC must contain:
- * Materials
- * Geometric information
- * Psets
- * Element type
+ * Correct element types (IfcBeam, IfcColumn, IfcWall, IfcSlab)
+ * Valid GlobalIds (used for populating slab dimensions & phasing)
+ * Consistent structure and geometry (so extraction can calculate areas/volumes)
+The tool adds missing Psets, but it still needs basic IFC structure to exist.
 
 
 
