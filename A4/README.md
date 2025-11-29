@@ -4,7 +4,8 @@ Title: LCA calculation of the STR-model
 Category: Materials / LCA / Sustainability Assessment  
 Description: The tool creates an entire LCA calculation of the STR-model. It does this by taking quantities and materials from the model and writing them into a json-file that can be imported directly into LCAbyg.
 ## Video tutorial
-VIDEO LINK HERE
+[![BIManalyst_33_Sustainability_A4_Tutorial](https://github.com/user-attachments/assets/f7ef163f-7c9f-4c2a-8ea2-b87cd683abec)](https://www.youtube.com/watch?v=CNkYhEwyIBQ "BIManalyst_33_Sustainability_A4_Tutorial")
+
 ## Code Examples
 ### IDS
 The IDS is the first thing to run when running the tool. It is essentially a function made up of multiple instances of the smaller function in the code block below. Basically, it will check if the element has a given property followed by checking whether that property has a value. If the property either does not exist or has no value, it will add the element and the missing property to an array, which keeps track of all the identified missing properties.
