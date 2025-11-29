@@ -32,18 +32,21 @@ It performs four main operations:
 * the json file can be directly imported into LCAbyg
 
 # Instructions to Run the Tool
-**1. Place 'main.py', 'export.py', 'extract.py', and 'IDS.py' in the same folder.**
-PICTURE
+**1. Place 'main.py', 'export.py', 'extract.py', and 'IDS.py' in the same folder.**  
+<img width="226" height="158" alt="image" src="https://github.com/user-attachments/assets/7db8e46b-1a0f-4111-98c7-88e34e66961b" />
 
-**2. In 'main.py' write the filepath of your model in the parenthesis on line 14.**
-PICTURE
 
-**3. Run 'main.py'.**
-If the IDS-function identified any missing properties, the tool will create 'Errors.xlsx', containing a list of all missing properties and the tool will stop running.
-PICTURE
+**2. In 'main.py' write the filepath of your model in the parenthesis on line 14.**  
+<img width="707" height="140" alt="image" src="https://github.com/user-attachments/assets/95d5944d-074b-415f-bbbf-306a2c51bb59" />
 
-If the IDS-function did not identify any missing properties, the tool will run, creating folders 'Excel' containing Excel-sheets with element properties and quantities and 'Json' containing a json-file.
-PICTURE
+**3. Run 'main.py'.**  
+If the IDS-function identified any missing properties, the tool will create 'Errors.xlsx', containing a list of all missing properties and the tool will stop running.  
+<img width="217" height="181" alt="image" src="https://github.com/user-attachments/assets/f424f8c6-e551-4029-8628-ec4f8c909fa2" />
+
+
+If the IDS-function did not identify any missing properties, the tool will run, creating folders 'Excel' containing Excel-sheets with element properties and quantities and 'Json' containing a json-file.  
+<img width="273" height="215" alt="image" src="https://github.com/user-attachments/assets/55b2e0be-f132-4d26-93fd-44e14e8d3e20" />
+
 
 # Advanced Building Design
 
