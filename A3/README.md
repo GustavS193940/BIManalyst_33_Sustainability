@@ -32,6 +32,18 @@ It performs four main operations:
 * the json file can be directly imported into LCAbyg
 
 # Instructions to Run the Tool
+**1. Place 'main.py', 'export.py', 'extract.py', and 'IDS.py' in the same folder.**
+PICTURE
+
+**2. In 'main.py' write the filepath of your model in the parenthesis on line 14.**
+PICTURE
+
+**3. Run 'main.py'.**
+If the IDS-function identified any missing properties, the tool will create 'Errors.xlsx', containing a list of all missing properties and the tool will stop running.
+PICTURE
+
+If the IDS-function did not identify any missing properties, the tool will run, creating folders 'Excel' containing Excel-sheets with element properties and quantities and 'Json' containing a json-file.
+PICTURE
 
 # Advanced Building Design
 
