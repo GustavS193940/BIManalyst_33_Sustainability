@@ -19,6 +19,7 @@ Based on the feedback we got, the tool definitely addresses the use case that we
 
 ### Nafsika s253100
 I am considering using OpenBIM tools in my thesis, as I'm really interested in automation and in approaching design through technological methods that can improve both the speed and quality of outcomes. 
+
 I see OpenBIM playing an important role in my professional life as well. I want to explore these tools in more practical and realistic contexts and understand how they influence the overall design process, especially when many different disciplines and people are involved and need to be aligned and educated in using them.
 
 ## Wrap up
@@ -26,7 +27,9 @@ I see OpenBIM playing an important role in my professional life as well. I want 
 
 ### Nafsika s253100
 I enjoyed the process a lot because it connected different levels of OpenBIM in a very structured way. In A1 and A2, we were more like observers, getting familiar with Blender, GitHub, and Python. Since I didn't have any coding experience before, writing our own scripts and building a tool was definitely challenging and sometimes confusing, but it was also the most creative part. It pushed me to think more analytically and understand the logic behind the tools. 
+
 In addition, the final reflection was also a valuable part of the assignment. It made me step back and see what I accomplished, what didn't work as well, and what needs another attempt. 
+
 Overall, I genuinely feel that I learned something meaningful, even though I still have a lot more to learn moving forward.
 
 
