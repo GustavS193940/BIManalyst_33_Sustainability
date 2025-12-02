@@ -16,6 +16,7 @@ Based on the feedback we got, the tool definitely addresses the use case that we
 
 ## Future for advanced use of OpenBIM
 ### Gustav s193940
+I doubt I will use OpenBIM for my thesis as it will focus more on individual processes at a material level. But I can definitely see myself using OpenBIM in my professional life. From playing around with it in this course, I recognise that there is a lot of potential for improving and streamlining LCA and sustainability tasks, which interests me greatly.
 
 ### Nafsika s253100
 I am considering using OpenBIM tools in my thesis, as I'm really interested in automation and in approaching design through technological methods that can improve both the speed and quality of outcomes. 
@@ -24,6 +25,7 @@ I see OpenBIM playing an important role in my professional life as well. I want 
 
 ## Wrap up
 ### Gustav s193940
+For me, this course has mostly been about broadening my knowledge on OpenBIM and the opportunities that lie in it. I recognise that there is still much more to learn, but I am also very proud of what we ended up creating. Our tool was a rather ambitious one, despite neither of us being very experienced in coding. This meant that we had to put a lot of thought and effort into our tool, applying our limited knowledge in creative ways to reach our goal, which is a skill that is always good to nourish. I hope to use OpenBIM more in the future, but even if I do not, I think simply knowing of its existence and the opportunities that come with it will allow me to make better, more informed choices in my future professional life.
 
 ### Nafsika s253100
 I enjoyed the process a lot because it connected different levels of OpenBIM in a very structured way. In A1 and A2, we were more like observers, getting familiar with Blender, GitHub, and Python. Since I didn't have any coding experience before, writing our own scripts and building a tool was definitely challenging and sometimes confusing, but it was also the most creative part. It pushed me to think more analytically and understand the logic behind the tools. 
